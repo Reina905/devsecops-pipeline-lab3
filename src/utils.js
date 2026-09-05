@@ -10,6 +10,6 @@ function calculateTotal(price, tax) {
   function validateRange(value, min = 0, max = 120) {
     return value >= min && value <= max;
   }
-   
+
   module.exports = { calculateTotal, getUserName, validateRange };
   
