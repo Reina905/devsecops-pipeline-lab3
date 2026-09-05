@@ -4,6 +4,6 @@ variable "aws_region" {
 } 
   
 variable "bucket_name" { 
-  description = "devsecops-lab-sosa-2026" 
+  description = "devsecops-lab-nosejs-2026" 
   type        = string 
 } 
