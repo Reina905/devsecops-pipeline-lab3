@@ -16,7 +16,7 @@ module "site" {
 
   source          = "../../modules/static-site" 
 
-  bucket_name     = "mi-bucket-unico" 
+  bucket_name     = "devsecops-lab-dev-nosejs-2026" 
 
   index_file_path = "./website/index.html" 
 
@@ -54,6 +54,6 @@ module "site" {
 
 |---|---| 
 
-| website_url | URL pública del sitio desplegado | 
+| website_url | URL pública del sitio desplegado: devsecops-lab-dev-nosejs-2026.s3-website-us-east-1.amazonaws.com | 
 
 | bucket_arn | ARN del bucket creado | 
