@@ -5,3 +5,4 @@
 infra/.terraform.lock.hcl
 node_modules/
 coverage/
+environments/dev/.terraform.lock.hcl
