@@ -6,7 +6,6 @@ terraform {
       version = "~> 5.0"
     }
   }
-}
 
 backend "s3" {
     bucket         = "devsecops-lab-tfstate-2026"
@@ -15,6 +14,7 @@ backend "s3" {
     dynamodb_table = "terraform-locks"
     encrypt        = true
   }
+}
 
 provider "aws" {
   region = "us-east-1"
