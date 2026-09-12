@@ -18,6 +18,6 @@ module "site" {
   index_file_path = "${path.module}/../../website/index.html"
   environment     = "dev"
   tags = {
-    Equipo = "DevSecOps"
+    Equipo = "Nosejs"
   }
 }
