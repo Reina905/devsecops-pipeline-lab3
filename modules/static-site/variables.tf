@@ -1,9 +1,22 @@
-variable "aws_region" { 
-  type    = string 
-  default = "us-east-1" 
-} 
-  
 variable "bucket_name" { 
-  description = "devsecops-lab-sosa-2026" 
+  description = "Nombre único global del bucket S3" 
+  type        = string
+} 
+
+  
+variable "index_file_path" { 
+  description = "Ruta local al archivo index.html a publicar" 
   type        = string 
+} 
+
+variable "environment" { 
+  description = "Nombre del ambiente (dev, staging, prod)" 
+  type        = string 
+  default     = "dev" 
+} 
+
+variable "tags" { 
+  description = "Etiquetas adicionales para todos los recursos del módulo" 
+  type        = map(string) 
+  default     = {} 
 } 
